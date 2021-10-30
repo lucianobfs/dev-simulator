@@ -1,0 +1,22 @@
+.tile {
+    height: 96px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .tile-row {
+    width: calc(96px * 9);
+  }
+  
+  .container {
+      background-image: url("/assets/images/matrix2.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+  }
+
+  .bug-img {
+      width: 25%;
+  }
+
