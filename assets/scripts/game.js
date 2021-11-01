@@ -8,9 +8,9 @@ class Game {
         this.pos
         this.duration
         this.previousPos
-        this.totalIteraction = false
-        this.naughtyPoints = 0
-        this.lifes = 3
+        this.clicked = false
+        this.Points = 0
+        this.lifes = 4
     }
 
     randomPos() {
@@ -29,13 +29,14 @@ class Game {
     }
 
     popUp() {
-        this.duration = this.randomTime(800, 1000)
+        this.duration = this.randomTime(700, 800)
         this.randomPos()
         // adicionar funcao setTimeout() no arquivo index.js depois
         // lembrar de adicionar um classe e remover para poder fazer o bug aparecer e sumir depois de um tempo x
     }
 
     startGame() {
+        // devSimulator.clicked = true
         this.popUp()
         // criar um limite de tempo para o jogo ou deixar infinito?
     }

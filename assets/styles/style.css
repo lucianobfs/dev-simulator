@@ -1,22 +1,101 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  background-image: url(/assets/images/code-background.jpg);
+}
+
+
+.teste1 {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  width:100em;
+  height:50em;
+  margin-top: -25em; /*set to a negative number 1/2 of your height*/
+  margin-left: -50em; /*set to a negative number 1/2 of your width*/
+  border: none;
+  border-radius: 20px;
+  background: transparent;
+  background-image: url(/assets/images/code-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+}
+
+.teste2 {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  width:100em;
+  height:50em;
+  margin-top: -25em; /*set to a negative number 1/2 of your height*/
+  margin-left: -50em; /*set to a negative number 1/2 of your width*/
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.795);
+  
+}
+
+h1 {
+  padding-bottom: 50px;
+  font-size: 3em;
+  margin-top: 10px;
+}
+
+p {
+  width: 60em;
+  padding: 10px;
+  font-size: 1em;
+}
+
+ul li {
+  padding-bottom: 5px;
+  font-size: 1em;
+}
+
+.dificulty-btns {
+  border: none;
+  margin: 10px;
+  width: 150px;
+  height: 60px;
+}
+
+.play-btn {
+  width: 150px;
+  height: 60px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: none;
+}
+
 .tile {
-    height: 96px;
+    height: 120px;
     font-size: 60px;
     font-weight: bold;
     text-align: center;
+    
   }
   
   .tile-row {
-    width: calc(96px * 9);
+    width: calc(96px * 10);
+    margin-bottom: 120px;
+    margin-top: 30px;
   }
   
   .container {
-      background-image: url("/assets/images/matrix2.png");
+      background-image: url("/assets/images/macbook2.png");
       background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
+      background-position: 50% -40%;
+      background-size: cover;
   }
 
   .bug-img {
       width: 25%;
+  }
+
+
+  p {
+    text-align: center;
   }
 
