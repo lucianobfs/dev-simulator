@@ -6,7 +6,7 @@ class Game {
         this.divs = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
         this.indice
         this.pos
-        this.duration
+        this.duration = this.randomTime()
         this.previousPos
         this.clicked = false
         this.Points = 0
@@ -22,6 +22,7 @@ class Game {
         this.previousPos = this.pos;
         return this.pos;
         
+        
     }
 
     randomTime(min, max) {
@@ -29,7 +30,7 @@ class Game {
     }
 
     popUp() {
-        this.duration = this.randomTime(700, 800)
+        this.duration
         this.randomPos()
         // adicionar funcao setTimeout() no arquivo index.js depois
         // lembrar de adicionar um classe e remover para poder fazer o bug aparecer e sumir depois de um tempo x

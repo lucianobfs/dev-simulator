@@ -99,3 +99,27 @@ ul li {
     text-align: center;
   }
 
+  #btn-div {
+    height: 30px;
+    margin-left: 200px;
+  }
+
+  .btns {
+    margin-right: 100px;
+    width: 300px;
+    border: none;
+  }
+
+  h6 img {
+    width: 4%;
+  }
+
+  .lives {
+    background-color: black;
+    color: white;
+  }
+
+  .play-again-btn {
+    border: none;
+  }
+

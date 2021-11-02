@@ -22,6 +22,8 @@
   </head>
   <body>
 
+    
+
     <div class="teste1 d-content">
       <div class="teste2 d-flex justify-content-center flex-column align-items-center justify-content-center">
         <h1>Junior Web Dev Simulator</h1>
@@ -40,10 +42,10 @@
 
         <p>escolha a dificuldade:</p>
 
-        <button class="dificulty-btns">fácil</button>
+        <button class="dificulty-btns">Easy</button>
         <button class="dificulty-btns">Normal</button>
         <button class="dificulty-btns">The Flash</button>
-        <button class="play-btn"> Jogar</button>
+        <button class="play-btn">Ready</button>
       </div>
       
       
@@ -51,9 +53,26 @@
 
 
 
+    <div class="after-game teste1 d-none">
+      <div class="teste2 d-flex justify-content-center flex-column align-items-center justify-content-center">
+        <h1 id="final-msg">Você perdeu !</h1>
+        
+        <p id="final-txt">Você perdeu todas as suas vidas e seu LAB foi comprometido! Se esforce mais e confie no processo!</p>
+
+        
+
+        <div>
+          <button class="play-again-btn">Jogar Novamente</button>
+        </div>
+        
+      </div>
+    </div>
+
+
 
     <div
       class="
+        game-page
         container
         d-flex
         justify-content-center
@@ -66,58 +85,62 @@
 
       <!-- <h1>Jogo da velha</h1> -->
 
-      <div id="btn-div">
-        <button id="start-btn" >start</button>
+      <div id="btn-div" class="d-flex justify-content-between">
+        <button id="start-btn" class="btns">start</button>
+        <button class="btns lives">Vidas: 4</button>
+        <h6 id="safadeza-pts"> <img src="./assets/images/safadeza-coin.png" alt=""> Pontos de Safadeza: 0</h6>
         </div>
+        
 
       <div class="row tile-row">
-        <div id="0" class="col-4 border border-dark tile">
+        <div id="0" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-0">
         </div>
-        <div id="1" class="col-4 border border-dark tile">
+        <div id="1" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-1">
         </div>
-        <div id="2" class="col-4 border border-dark tile">
+        <div id="2" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-2">
         </div>
-        <div id="3" class="col-4 border border-dark tile">
+        <div id="3" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-3">
         </div>
-        <div id="4" class="col-4 border border-dark tile">
+        <div id="4" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-4">
         </div>
-        <div id="5" class="col-4 border border-dark tile">
+        <div id="5" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-5">
         </div>
-        <div id="6" class="col-4 border border-dark tile">
+        <div id="6" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-6">
         </div>
-        <div id="7" class="col-4 border border-dark tile">
+        <div id="7" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-7">
         </div>
-        <div id="8" class="col-4 border border-dark tile">
+        <div id="8" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-8">
         </div>
-        <div id="9" class="col-4 border border-dark tile">
+        <div id="9" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-9">
         </div>
-        <div id="10" class="col-4 border border-dark tile">
+        <div id="10" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-10">
         </div>
-        <div id="11" class="col-4 border border-dark tile">
+        <div id="11" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-11">
         </div>
-        <div id="12" class="col-4 border border-dark tile">
+        <div id="12" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-12">
         </div>
-        <div id="13" class="col-4 border border-dark tile">
+        <div id="13" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-13">
         </div>
-        <div id="14" class="col-4 border border-dark tile">
+        <div id="14" class="col-4  border-dark tile">
             <img src="./assets/images/bug.png" alt="" class="bug-img d-none" id="img-14">
         </div>
         
       </div>
+
 
       <!-- <span
         ><strong>Jogador atual:</strong> <span id="currentPlayer"></span
