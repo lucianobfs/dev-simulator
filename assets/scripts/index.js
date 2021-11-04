@@ -37,6 +37,7 @@ failedAudio = new Audio('./assets/sounds/mp3_HjkcSnh.mp3')
 playAgainElement[0].addEventListener('click', () => {
     devSimulator.Points = 0
     safadezaPointsElement.innerHTML = `<img src="./assets/images/safadeza-coin.png" alt=""> Pontos: ${devSimulator.Points}`
+    let dificultyCheck = false
 
     devSimulator.lifes = 4
     livesElement[0].innerHTML = `Vidas: ${devSimulator.lifes}`
@@ -59,11 +60,11 @@ for (let i = 0; i < dificultyBtnsElements.length; i++) {
     dificultyBtnsElements[i].addEventListener('click', () => {
         if (i === 0) { // dificuldade fácil
             dificultyCheck = true
-            devSimulator.duration = devSimulator.randomTime(800, 1000)
+            devSimulator.duration = devSimulator.randomTime(800, 900)
         }
         if (i === 1) { // dificuldade normal
             dificultyCheck = true
-            devSimulator.duration = devSimulator.randomTime(600, 800)
+            devSimulator.duration = devSimulator.randomTime(500, 700)
         }
         if (i === 2) { // dificuldade the flash
             dificultyCheck = true
