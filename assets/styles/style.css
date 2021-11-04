@@ -92,8 +92,6 @@ ul li {
       left: 50%;
       width:100em;
       height:50em;
-      margin-top: -25em; /*set to a negative number 1/2 of your height*/
-      margin-left: -50em; /*set to a negative number 1/2 of your width*/
       background-repeat: no-repeat;
       background-size: cover;
   }
