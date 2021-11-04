@@ -4,6 +4,7 @@
 
 <p align="justify"> O Junior Web Dev Simulator se trata de um jogo inspirado no Whack-A-Mole, com um toque de humor voltado para o universo do Web Development </p>
 
+
 ## Links
 
 - [Repository on GitHub](https://github.com/lucianobfs/dev-simulator)
