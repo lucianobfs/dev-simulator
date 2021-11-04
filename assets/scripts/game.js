@@ -16,9 +16,9 @@ class Game {
     randomPos() {
         this.indice = Math.floor(Math.random() * this.divs.length)
         this.pos = this.divs[this.indice]
-        if (this.pos === this.previousPos){
-            return randomPos;
-        }
+        // if (this.pos === this.previousPos){
+        //     return randomPos;
+        // }
         this.previousPos = this.pos;
         return this.pos;
         
