@@ -1,7 +1,7 @@
 body {
   font-family: 'Press Start 2P', cursive;
   color: white;
-  background-image: url(./assets/images/code-background.jpg);
+  background-image: url('./assets/images/code-background.jpg');
 }
 
 
@@ -16,7 +16,7 @@ body {
   border: none;
   border-radius: 20px;
   background: transparent;
-  background-image: url(./assets/images/code-background.jpg);
+  background-image: url('./assets/images/code-background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   
