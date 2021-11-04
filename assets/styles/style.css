@@ -1,7 +1,7 @@
 body {
   font-family: 'Press Start 2P', cursive;
   color: white;
-  background-image: url("./images/code-background.jpg");
+  background-image: url("../images/code-background.jpg");
 }
 
 
@@ -16,7 +16,7 @@ body {
   border: none;
   border-radius: 20px;
   background: transparent;
-  background-image: url("./images/code-background.jpg");
+  background-image: url("../images/code-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   
@@ -86,7 +86,7 @@ ul li {
   }
   
   .container {
-      background-image: url("./images/macbook.png");
+      background-image: url("../images/macbook.png");
       background-repeat: no-repeat;
       background-position: 50% -40%;
       background-size: cover;
